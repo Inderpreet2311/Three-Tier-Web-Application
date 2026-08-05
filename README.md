@@ -166,34 +166,6 @@ terraform destroy -var-file="environments/dev.tfvars"
 
 ---
 
-## Deployment Evidence
-
-### Architecture
-![Architecture](screenshots/architecture.png)
-
-### Load Balancer
-![ALB](screenshots/alb.png)
-
-### Auto Scaling Group
-![ASG](screenshots/asg.png)
-
-### EC2 Instances
-![EC2](screenshots/ec2.png)
-
-### RDS Database
-![RDS](screenshots/rds.png)
-
-### VPC and Subnets
-![VPC](screenshots/vpc.png)
-
----
-
-## Real World Lessons Learned
-
-*(To be updated after deployment)*
-
----
-
 ## Author
 
 **Inder** — IT Operations transitioning to Cloud Engineering
