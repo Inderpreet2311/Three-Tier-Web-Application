@@ -1,0 +1,17 @@
+aws_region = "us-east-1"
+environment = "dev"
+project_name =  "Three-Tier-App"
+vpc_cidr = "10.0.0.0/16"
+public_subnet_cidr_a = "10.0.1.0/24"
+public_subnet_cidr_b = "10.0.2.0/24"
+private_subnet_cidr_a = "10.0.3.0/24"
+private_subnet_cidr_b = "10.0.4.0/24"
+instance_type = "t3.micro"
+ami_id = "ami-0c02fb55956c7d316"
+min_size = 1
+max_size = 3
+desired_capacity = 2
+db_name = "Three_Tier_app_db"
+db_username = "Redni123"
+db_password = "Redni@231197"
+db_instance_class = "db.t3.micro"
